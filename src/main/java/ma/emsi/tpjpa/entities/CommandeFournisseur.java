@@ -26,7 +26,7 @@ public class CommandeFournisseur implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
 	private Long IdCommandeFournisseur;
-	private String code;
+	private String code;///Test md-1 error
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date datecommande;
 	@ManyToOne
